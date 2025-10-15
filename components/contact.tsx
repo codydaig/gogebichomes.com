@@ -36,7 +36,7 @@ export function Contact() {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4 font-serif">Get in Touch</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto text-pretty">
-            Ready to find your dream home in the UP? We're here to help you every step of the way.
+            Friendly
           </p>
         </div>
 
@@ -52,8 +52,8 @@ export function Contact() {
                   </div>
                   <div>
                     <p className="font-semibold text-foreground mb-1">Phone</p>
-                    <a href="tel:+19065551234" className="text-muted-foreground hover:text-primary transition-colors">
-                      (906) 555-1234
+                    <a href="tel:+19066755015" className="text-muted-foreground hover:text-primary transition-colors">
+                      (906) 675-5015
                     </a>
                   </div>
                 </div>
@@ -80,9 +80,9 @@ export function Contact() {
                   <div>
                     <p className="font-semibold text-foreground mb-1">Location</p>
                     <p className="text-muted-foreground">
-                      Serving Gogebic County
+                      Serving Gogebic County, Michigan
                       <br />
-                      Upper Peninsula, Michigan
+                      Iron County, Wisconsin
                     </p>
                   </div>
                 </div>
@@ -96,63 +96,63 @@ export function Contact() {
           </div>
 
           {/* Contact Form */}
-          <div className="bg-card rounded-lg border border-border p-8">
-            <form onSubmit={handleSubmit} className="space-y-6">
-              <div className="space-y-2">
-                <Label htmlFor="name">Full Name</Label>
-                <Input
-                  id="name"
-                  name="name"
-                  placeholder="John Doe"
-                  value={formData.name}
-                  onChange={handleChange}
-                  required
-                />
-              </div>
+          {/*<div className="bg-card rounded-lg border border-border p-8">*/}
+          {/*  <form onSubmit={handleSubmit} className="space-y-6">*/}
+          {/*    <div className="space-y-2">*/}
+          {/*      <Label htmlFor="name">Full Name</Label>*/}
+          {/*      <Input*/}
+          {/*        id="name"*/}
+          {/*        name="name"*/}
+          {/*        placeholder="John Doe"*/}
+          {/*        value={formData.name}*/}
+          {/*        onChange={handleChange}*/}
+          {/*        required*/}
+          {/*      />*/}
+          {/*    </div>*/}
 
-              <div className="space-y-2">
-                <Label htmlFor="email">Email</Label>
-                <Input
-                  id="email"
-                  name="email"
-                  type="email"
-                  placeholder="john@example.com"
-                  value={formData.email}
-                  onChange={handleChange}
-                  required
-                />
-              </div>
+          {/*    <div className="space-y-2">*/}
+          {/*      <Label htmlFor="email">Email</Label>*/}
+          {/*      <Input*/}
+          {/*        id="email"*/}
+          {/*        name="email"*/}
+          {/*        type="email"*/}
+          {/*        placeholder="john@example.com"*/}
+          {/*        value={formData.email}*/}
+          {/*        onChange={handleChange}*/}
+          {/*        required*/}
+          {/*      />*/}
+          {/*    </div>*/}
 
-              <div className="space-y-2">
-                <Label htmlFor="phone">Phone Number</Label>
-                <Input
-                  id="phone"
-                  name="phone"
-                  type="tel"
-                  placeholder="(906) 555-1234"
-                  value={formData.phone}
-                  onChange={handleChange}
-                />
-              </div>
+          {/*    <div className="space-y-2">*/}
+          {/*      <Label htmlFor="phone">Phone Number</Label>*/}
+          {/*      <Input*/}
+          {/*        id="phone"*/}
+          {/*        name="phone"*/}
+          {/*        type="tel"*/}
+          {/*        placeholder="(906) 555-1234"*/}
+          {/*        value={formData.phone}*/}
+          {/*        onChange={handleChange}*/}
+          {/*      />*/}
+          {/*    </div>*/}
 
-              <div className="space-y-2">
-                <Label htmlFor="message">Message</Label>
-                <Textarea
-                  id="message"
-                  name="message"
-                  placeholder="Tell us about your ideal home in the UP..."
-                  value={formData.message}
-                  onChange={handleChange}
-                  rows={5}
-                  required
-                />
-              </div>
+          {/*    <div className="space-y-2">*/}
+          {/*      <Label htmlFor="message">Message</Label>*/}
+          {/*      <Textarea*/}
+          {/*        id="message"*/}
+          {/*        name="message"*/}
+          {/*        placeholder="Tell us about your ideal home in the UP..."*/}
+          {/*        value={formData.message}*/}
+          {/*        onChange={handleChange}*/}
+          {/*        rows={5}*/}
+          {/*        required*/}
+          {/*      />*/}
+          {/*    </div>*/}
 
-              <Button type="submit" className="w-full bg-primary hover:bg-primary/90 text-primary-foreground" size="lg">
-                Send Message
-              </Button>
-            </form>
-          </div>
+          {/*    <Button type="submit" className="w-full bg-primary hover:bg-primary/90 text-primary-foreground" size="lg">*/}
+          {/*      Send Message*/}
+          {/*    </Button>*/}
+          {/*  </form>*/}
+          {/*</div>*/}
         </div>
       </div>
     </section>

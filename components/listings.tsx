@@ -13,15 +13,14 @@ export function Listings() {
 
         {/* Embed container for property listings */}
         <div className="bg-card rounded-lg border border-border p-8 min-h-[600px]">
-          <div className="text-center text-muted-foreground">
-            <p className="mb-4">Paste your property listing embed code below:</p>
-            <div className="bg-muted/50 rounded-md p-8 border-2 border-dashed border-border">
-              <p className="text-sm font-mono">{`<!-- Your property listing embed code goes here -->`}</p>
-              <p className="text-xs mt-4 text-muted-foreground">
-                Replace this placeholder with your actual listing embed code
-              </p>
-            </div>
-          </div>
+          <iframe
+            title="Available Properties"
+            style={{ border: 'none' }}
+            src="https://rental.turbotenant.com/embedpropertylist.html#/QmFzaWNVc2VyUHJvZmlsZTo2MzEwODg="
+            height="1240"
+            width="100%"
+            loading="lazy"
+          ></iframe>
         </div>
 
         {/* Optional: Add a CTA below listings */}

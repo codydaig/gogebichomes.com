@@ -36,14 +36,13 @@ export function Hero() {
       <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
         <div className="flex items-center justify-center gap-2 mb-6">
           <MapPin className="h-5 w-5 text-accent" />
-          <p className="text-primary-foreground/90 text-lg">Upper Peninsula, Michigan</p>
+          <p className="text-primary-foreground/90 text-lg">Michigan & Wisconsin</p>
         </div>
         <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground mb-6 font-serif text-balance">
-          Find Your Home in the Heart of the UP
+          Long Term Rentals in the Hurley, WI and Ironwood, MI Areas
         </h1>
         <p className="text-xl md:text-2xl text-primary-foreground/90 mb-10 max-w-3xl mx-auto text-pretty leading-relaxed">
-          Discover exceptional properties nestled among pristine forests, crystal-clear lakes, and the natural beauty
-          that makes Michigan's Upper Peninsula truly special.
+          Quality Rentals, Professional Landlords, Excellent Maintenance
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground text-lg px-8" asChild>
@@ -74,7 +73,7 @@ export function Hero() {
           <div className="bg-primary-foreground/10 backdrop-blur-sm rounded-lg p-6 border border-primary-foreground/20">
             <MapPin className="h-8 w-8 text-accent mb-3 mx-auto" />
             <h3 className="text-primary-foreground font-semibold mb-2">Local Expertise</h3>
-            <p className="text-primary-foreground/80 text-sm">Deep knowledge of the UP</p>
+            <p className="text-primary-foreground/80 text-sm">Deep knowledge of area</p>
           </div>
         </div>
       </div>
